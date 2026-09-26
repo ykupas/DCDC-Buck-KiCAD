@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "53b05cbf-5d0b-401b-884c-be7b79a6fe29")
+	(paper "A4")
+	(title_block
+		(rev "A")
+		(company "Author: Ygor K.")
+	)
+	(lib_symbols)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 49.53 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60fb7c5b-d357-4991-836b-150920413c38")
+	)
+	(hierarchical_label "+Vout"
+		(shape passive)
+		(at 88.9 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f82061e-7a45-4127-9e45-93b3c66f0d83")
+	)
+	(hierarchical_label "Verr"
+		(shape output)
+		(at 114.3 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c219034c-ee12-460f-9f44-c3ce7b876c9f")
+	)
+	(hierarchical_label "+15V"
+		(shape passive)
+		(at 49.53 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3a58141-7dbd-409f-a013-6953c0543b14")
+	)
+)

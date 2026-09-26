@@ -1,0 +1,57 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "803f24a2-26e0-4df3-b1b9-9cc7729ea1b1")
+	(paper "A4")
+	(title_block
+		(title "CONTROLLER")
+		(rev "A")
+		(company "Author: Ygor K.")
+	)
+	(lib_symbols)
+	(hierarchical_label "Vpwm"
+		(shape output)
+		(at 100.33 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20b121d2-43d6-41df-9274-dbcc5130eb6f")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 43.18 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "561c7cec-b52b-4a38-a4ab-a1ebca2bddad")
+	)
+	(hierarchical_label "Verr"
+		(shape input)
+		(at 78.74 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b4f20fc-7e20-45cc-b23c-a1b2a6c5912e")
+	)
+	(hierarchical_label "+15V"
+		(shape passive)
+		(at 43.18 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d91eaf3f-d856-4b7a-ba66-ac31aad18a30")
+	)
+)
