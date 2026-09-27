@@ -10,6 +10,223 @@
 		(company "Author: Ygor K.")
 	)
 	(lib_symbols
+		(symbol "1N4007_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D5"
+				(at -3.302 2.286 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR1545CT"
+				(at -0.254 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Link" "https://www.multcomercial.com.br/diodo-retificador-ultra-rapido-uf4007-1000v-1a-dc-25448.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4007_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -126,6 +343,183 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -483,14 +877,201 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4007"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4007"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4007_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4007_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Driver_FET:IR2111"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U1"
-				(at 2.1433 15.24 0)
+			(property "Reference" "IC2"
+				(at -6.35 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -500,8 +1081,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IR2111"
-				(at 2.1433 12.7 0)
+			(property "Value" "IR2117"
+				(at 1.778 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -511,7 +1092,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -535,6 +1116,17 @@
 				)
 			)
 			(property "Description" "Half-Bridge Driver, 600V, 250/500mA, PDIP-8/SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Link" "https://www.multcomercial.com.br/circuito-integrado-ir2117p-dip-8-ir.html"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -673,7 +1265,7 @@
 					)
 				)
 				(pin output line
-					(at 7.62 5.08 180)
+					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "HO"
 						(effects
@@ -1181,48 +1773,136 @@
 		)
 	)
 	(junction
-		(at 111.76 82.55)
+		(at 175.26 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1623f3b3-46d2-4cca-bb7b-11226d14bb1b")
+		(uuid "1040c964-497d-4bbc-a225-d7131aa24e8b")
 	)
 	(junction
-		(at 91.44 82.55)
+		(at 121.92 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33ed9119-7717-44b9-a458-43c4c479e751")
+		(uuid "19f78ecc-5a2a-4aaa-9c4b-877f32bc3c64")
 	)
 	(junction
-		(at 119.38 72.39)
+		(at 176.53 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43c6c6bf-197e-4921-b1f5-f32d4ead569b")
+	)
+	(junction
+		(at 110.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c000ea-f4b1-4c3f-a151-b1a8559752d0")
+	)
+	(junction
+		(at 186.69 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93424bd0-8f6e-416d-9862-c8689df434ea")
+	)
+	(junction
+		(at 179.07 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "985aedde-480a-4b41-935c-4c58efcd856d")
+	)
+	(junction
+		(at 176.53 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a11f2f52-9761-420f-8756-09d425dc40be")
+	)
+	(junction
+		(at 186.69 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6934755-554e-4bc0-8c34-c0656e9275ee")
 	)
 	(junction
-		(at 91.44 72.39)
+		(at 137.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b15f0e12-acb0-4d66-8e74-8b1eaa6ba6c7")
+		(uuid "a755fb6b-7c7d-4999-88ad-b4292729a88e")
 	)
 	(junction
-		(at 151.13 72.39)
+		(at 165.1 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b60dfd99-7a66-491f-978d-9c65b875c000")
+	)
+	(junction
+		(at 215.9 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b70964e3-a44a-4717-abd5-1ca43bd5701a")
 	)
+	(junction
+		(at 154.94 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b92814fd-b651-406f-978b-81b9b8f9da72")
+	)
+	(junction
+		(at 154.94 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff48e6a9-5824-4360-aa1b-c560eba77dcb")
+	)
 	(wire
 		(pts
-			(xy 119.38 72.39) (xy 119.38 74.93)
+			(xy 176.53 67.31) (xy 186.69 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a6e8eb1-7858-45a8-af8b-e18cc0edae68")
+		(uuid "068668d0-00be-4831-8bd1-38ef95ea6490")
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 160.02 72.39)
+			(xy 154.94 92.71) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bfe592-224b-45ee-990f-0b8cb2b30171")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa52f19-b263-434b-b96d-02aabcf7c688")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c20b69-b09b-4bef-af08-b1cd005e60b6")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edaa919-20f5-4553-a86b-ac1288c0eff8")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1232,7 +1912,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 72.39) (xy 151.13 72.39)
+			(xy 205.74 106.68) (xy 215.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1242,37 +1922,127 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 82.55) (xy 91.44 82.55)
+			(xy 186.69 93.98) (xy 186.69 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f72f515-473b-4b92-a9b0-9287f81cb18f")
+		(uuid "26a28c6f-751c-4997-94a9-0782bac69dee")
 	)
 	(wire
 		(pts
-			(xy 91.44 82.55) (xy 91.44 83.82)
+			(xy 175.26 90.17) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50974d0f-e852-41c8-9fde-4ad3a0fdfbe7")
+		(uuid "26fab19e-e543-411d-81c0-fedecb63ca60")
 	)
 	(wire
 		(pts
-			(xy 86.36 72.39) (xy 91.44 72.39)
+			(xy 149.86 100.33) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5978edb0-034b-43fd-8672-b12bd54a3e49")
+		(uuid "2db813b8-e2c4-4759-bdfa-ad04581442c8")
 	)
 	(wire
 		(pts
-			(xy 111.76 82.55) (xy 111.76 85.09)
+			(xy 171.45 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3157ec94-fd09-49a8-892b-fce9a911b46a")
+	)
+	(wire
+		(pts
+			(xy 165.1 90.17) (xy 166.37 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384b7880-ada4-4425-a815-08eab20f61f5")
+	)
+	(wire
+		(pts
+			(xy 176.53 76.2) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b149cf0-2157-4633-a953-5fc0fb3eb260")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f42b7b2-ada2-4418-bc80-850af3ec4702")
+	)
+	(wire
+		(pts
+			(xy 165.1 90.17) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4495eb8c-5ba8-4b44-87bd-079b9218eca2")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9754c9-35e1-48f1-8234-ef4a5a98bada")
+	)
+	(wire
+		(pts
+			(xy 154.94 106.68) (xy 186.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e9dd5fb-0aad-4a53-9641-a0da3d53e936")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50626c20-a3b1-4918-9457-9163b631aa36")
+	)
+	(wire
+		(pts
+			(xy 154.94 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b971b7-6e3e-4a93-93c7-56cb13569c10")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1282,47 +2052,67 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 91.44 82.55)
+			(xy 186.69 106.68) (xy 198.12 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6176fd7b-a4c2-43f1-bde8-2a2e4ab0d2e7")
+		(uuid "5d980935-52e1-4078-b6d4-6b85fee9c7fe")
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 139.7 72.39)
+			(xy 175.26 96.52) (xy 173.99 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67042ac8-dcec-40de-9049-00416726b1b4")
+		(uuid "600d2abf-56e6-4618-8d48-d0492fd74f45")
 	)
 	(wire
 		(pts
-			(xy 91.44 72.39) (xy 91.44 73.66)
+			(xy 137.16 116.84) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c7f5177-f61f-489f-8727-a444a9596cb3")
+		(uuid "7278ddf3-c109-4376-8dd8-4d2c094555aa")
 	)
 	(wire
 		(pts
-			(xy 111.76 80.01) (xy 111.76 82.55)
+			(xy 186.69 106.68) (xy 186.69 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "845c707c-5fc6-4850-8d30-1cc2253f115b")
+		(uuid "7a39d410-8b0e-44a4-9de0-7618ea6daa18")
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 151.13 83.82)
+			(xy 110.49 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f553560-168f-45dc-96e7-6208fbfede05")
+	)
+	(wire
+		(pts
+			(xy 176.53 67.31) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aa38497-0a8e-4fa7-9c85-8e0d50f40f48")
+	)
+	(wire
+		(pts
+			(xy 215.9 115.57) (xy 215.9 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +2122,57 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 72.39) (xy 91.44 72.39)
+			(xy 107.95 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8fa3e57-e17d-4ede-a185-fdb25c31274d")
+	)
+	(wire
+		(pts
+			(xy 176.53 77.47) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc7b2c4-6a5c-4ef1-9448-506da7bf30da")
+	)
+	(wire
+		(pts
+			(xy 173.99 90.17) (xy 175.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74a039d-fc87-46c9-97db-81788ff5edff")
+	)
+	(wire
+		(pts
+			(xy 165.1 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7a4164-3c08-4154-8a13-2e29a6a3f5fc")
+	)
+	(wire
+		(pts
+			(xy 144.78 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf219f8c-80e0-4535-8a27-6ac1f1dd76da")
+	)
+	(wire
+		(pts
+			(xy 186.69 67.31) (xy 186.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +2182,47 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 151.13 73.66)
+			(xy 144.78 100.33) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b87018-3ebc-4a45-a7f7-16749d8eb320")
+	)
+	(wire
+		(pts
+			(xy 171.45 67.31) (xy 176.53 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5b00c0-2561-4ca6-9176-6d32608a23a8")
+	)
+	(wire
+		(pts
+			(xy 179.07 96.52) (xy 179.07 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df5ebff0-a69a-44bd-9e74-02cc254b0147")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 137.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60d851c-e319-45a8-b6d2-5401fd5a5906")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 215.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1350,41 +2230,42 @@
 		)
 		(uuid "f66d8f89-a101-4dec-ac7b-9e90df62d94e")
 	)
-	(wire
-		(pts
-			(xy 119.38 82.55) (xy 111.76 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb0f7686-3e3a-4fac-90e0-797a23c08a1a")
-	)
-	(hierarchical_label "Vpwm"
-		(shape input)
-		(at 85.09 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "935c2e5a-df02-46f9-982c-7f77ebca1517")
-	)
-	(hierarchical_label "GND"
+	(hierarchical_label "+Vin"
 		(shape passive)
-		(at 86.36 82.55 180)
+		(at 171.45 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9ef6e7cf-14a5-4abd-ac56-d14d3cc9cfdb")
+		(uuid "13d8ac0a-8f67-4e65-ae63-d836ae3ce7ce")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 171.45 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34df919d-fd6d-4a23-b8b9-bd82b0d6b19c")
+	)
+	(hierarchical_label "Vpwm"
+		(shape input)
+		(at 127 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "935c2e5a-df02-46f9-982c-7f77ebca1517")
 	)
 	(hierarchical_label "+15V"
 		(shape passive)
-		(at 93.98 127 180)
+		(at 107.95 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1395,7 +2276,7 @@
 	)
 	(hierarchical_label "+Vout"
 		(shape passive)
-		(at 160.02 72.39 0)
+		(at 224.79 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1404,20 +2285,9 @@
 		)
 		(uuid "cd27f9ea-366a-4716-b531-ae012d7e946c")
 	)
-	(hierarchical_label "+Vin"
-		(shape passive)
-		(at 86.36 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fca9d2e7-deec-4d9f-889c-ed18b18de284")
-	)
 	(symbol
 		(lib_id "Transistor_FET:IRF740")
-		(at 111.76 74.93 90)
+		(at 184.15 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1427,7 +2297,7 @@
 		(dnp no)
 		(uuid "123df177-da19-4d3a-9897-a2fd1c3b6433")
 		(property "Reference" "Q1"
-			(at 116.078 77.216 90)
+			(at 181.102 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1438,7 +2308,7 @@
 			)
 		)
 		(property "Value" "IRF740"
-			(at 115.062 69.088 90)
+			(at 189.992 92.202 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1449,7 +2319,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 113.665 69.85 0)
+			(at 189.23 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1462,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/91054/91054.pdf"
-			(at 115.57 69.85 0)
+			(at 189.23 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1474,7 +2344,7 @@
 			)
 		)
 		(property "Description" "10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"
-			(at 111.76 74.93 0)
+			(at 184.15 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1503,8 +2373,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 151.13 77.47 0)
+		(lib_id "Device:R")
+		(at 182.88 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1512,10 +2382,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27bba533-908c-44c4-b0ff-e4188f30e909")
-		(property "Reference" "C2"
-			(at 154.94 76.1999 0)
+		(uuid "15f9ee1a-0b75-4024-80e3-568fe9effe92")
+		(property "Reference" "R25"
+			(at 179.07 99.0601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,8 +2394,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 154.94 78.7399 0)
+		(property "Value" "100kR"
+			(at 179.07 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1536,8 +2405,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.0952 81.28 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 182.88 94.742 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1548,7 +2417,334 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 77.47 0)
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/4W"
+			(at 179.07 103.1241 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88764f33-7c9d-4e08-bc54-cee27473dfa4")
+		)
+		(pin "2"
+			(uuid "80d0530f-f011-4f45-b92c-91066d403b62")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 170.18 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18ef107e-0ff9-4785-a290-b159cbb8eae6")
+		(property "Reference" "D4"
+			(at 167.386 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4007"
+			(at 169.926 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 170.18 94.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/diodo-retificador-ultra-rapido-uf4007-1000v-1a-dc-25448.html"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "92db3057-403e-4287-81fb-9031509f95c1")
+		)
+		(pin "1"
+			(uuid "2ccd4806-0e76-4a89-8662-661db6206b42")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4007")
+		(at 154.94 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c3e39c8-eb0c-4ca1-8442-3aa7db688b67")
+		(property "Reference" "D3"
+			(at 152.146 87.122 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4007"
+			(at 157.734 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 159.385 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/diodo-retificador-1n4007-1000v-1a.html"
+			(at 154.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0b7f518-27df-43e4-83a3-781c1e89fba2")
+		)
+		(pin "1"
+			(uuid "cd91ad12-013a-4091-b1a9-232d255b8046")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "27bba533-908c-44c4-b0ff-e4188f30e909")
+		(property "Reference" "C2"
+			(at 218.44 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 218.44 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
+			(at 216.8652 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1559,7 +2755,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 151.13 77.47 0)
+			(at 215.9 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 218.44 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-tantalo-100uf-35v-cod-loja-3637.html"
+			(at 215.9 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1585,8 +2803,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 111.76 88.9 0)
+		(lib_id "Device:C_Polarized")
+		(at 176.53 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1594,10 +2812,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c1daa42-386c-44b2-a9ec-58ebf6dda32d")
-		(property "Reference" "R2"
-			(at 114.3 87.6299 0)
+		(uuid "3bba2f2d-b036-495a-8d85-d439f5fc6873")
+		(property "Reference" "C10"
+			(at 179.324 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1607,8 +2824,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 114.3 90.1699 0)
+		(property "Value" "4.7uF"
+			(at 179.324 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1618,8 +2835,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 109.982 88.9 90)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
+			(at 177.4952 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,7 +2847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 88.9 0)
+			(at 176.53 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1640,8 +2857,110 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 111.76 88.9 0)
+		(property "Description" "Polarized capacitor"
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-eletrolitico-4-7uf-63v.html"
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 179.324 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b88ef3cc-bc10-4d1c-b154-85bb82d69cc2")
+		)
+		(pin "1"
+			(uuid "6da4c5c7-ab6c-4581-988a-a3ab35ad0af3")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 121.92 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4150854e-cf82-47fa-96ea-cdcc23bf6910")
+		(property "Reference" "#PWR036"
+			(at 121.92 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 121.92 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,23 +2971,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "50afa46b-98e2-40be-907f-be10a16e4e39")
-		)
-		(pin "2"
-			(uuid "17087056-14a4-4515-b29c-30ea23af0d11")
+			(uuid "bcef2f9a-451d-4100-abce-ba227d8b6bc5")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
-					(reference "R2")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 143.51 72.39 90)
+		(lib_id "Device:C")
+		(at 121.92 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1676,30 +2992,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4df5bc65-57fd-4d80-9dfd-d6e55289d143")
-		(property "Reference" "L1"
-			(at 143.51 67.31 90)
+		(uuid "431438b6-3e3f-434d-bbe2-2404eeab26b8")
+		(property "Reference" "C9"
+			(at 124.968 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "L"
-			(at 143.51 69.85 90)
+		(property "Value" "100nF"
+			(at 124.968 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 143.51 72.39 0)
+		(property "Footprint" ""
+			(at 122.8852 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1710,7 +3027,109 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 72.39 0)
+			(at 121.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 121.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 124.968 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-multicamada-100kpf-50v-cod-loja-349.html"
+			(at 121.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a8a6c76-3c84-4376-b28f-f5a80c2cce4f")
+		)
+		(pin "1"
+			(uuid "43929d1f-1790-4df0-92af-b4e2469b8d76")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 201.93 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df5bc65-57fd-4d80-9dfd-d6e55289d143")
+		(property "Reference" "L1"
+			(at 201.93 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L"
+			(at 201.93 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 201.93 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +3140,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 143.51 72.39 0)
+			(at 201.93 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1748,7 +3167,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 91.44 83.82 0)
+		(at 110.49 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1756,9 +3175,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6654c3d6-65cd-48f0-946a-56c67537b26d")
-		(property "Reference" "#PWR014"
-			(at 91.44 90.17 0)
+		(uuid "7772adb4-db96-4782-856c-bee444fed65b")
+		(property "Reference" "#PWR035"
+			(at 110.49 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +3188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 88.138 0)
+			(at 110.49 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1779,7 +3198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 83.82 0)
+			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,7 +3209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 83.82 0)
+			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1801,7 +3220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 91.44 83.82 0)
+			(at 110.49 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,20 +3231,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ff61863-34e2-4d75-a183-accab66c9719")
+			(uuid "fa9701d5-8171-4d77-a043-ec255e9f3ba2")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
-					(reference "#PWR014")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 119.38 78.74 0)
+		(lib_id "power:GNDREF")
+		(at 186.69 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1833,32 +3252,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69310ed0-7fe4-4aef-9932-763f8d035ad0")
-		(property "Reference" "R1"
-			(at 121.92 77.4699 0)
+		(uuid "823c436d-6df3-41b4-841f-a0282b9e9afb")
+		(property "Reference" "#PWR038"
+			(at 186.69 123.19 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 121.92 80.0099 0)
+		(property "Value" "GND"
+			(at 186.69 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 117.602 78.74 90)
+		(property "Footprint" ""
+			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1869,7 +3286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 78.74 0)
+			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,8 +3296,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 119.38 78.74 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 186.69 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1891,15 +3308,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "eaa80fb0-08c1-48b3-b7a3-7f47a0b02fb7")
-		)
-		(pin "2"
-			(uuid "91d40987-4666-43bd-a56a-40bfa59b5eb8")
+			(uuid "6ef261f3-3f44-4e5f-a129-3a8aca826580")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
-					(reference "R1")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1907,7 +3321,7 @@
 	)
 	(symbol
 		(lib_id "Driver_FET:IR2111")
-		(at 127 144.78 0)
+		(at 137.16 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1917,7 +3331,7 @@
 		(dnp no)
 		(uuid "8d02a820-067e-4c79-b1bc-0203cfeece89")
 		(property "Reference" "IC2"
-			(at 129.032 156.464 0)
+			(at 130.81 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1928,7 +3342,7 @@
 			)
 		)
 		(property "Value" "IR2117"
-			(at 127.762 133.35 0)
+			(at 138.938 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1939,7 +3353,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
-			(at 127 144.78 0)
+			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1951,7 +3365,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/ir2111.pdf?fileId=5546d462533600a4015355c810e51682"
-			(at 127 144.78 0)
+			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1962,7 +3376,7 @@
 			)
 		)
 		(property "Description" "Half-Bridge Driver, 600V, 250/500mA, PDIP-8/SOIC-8"
-			(at 127 144.78 0)
+			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,7 +3387,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/circuito-integrado-ir2117p-dip-8-ir.html"
-			(at 127 144.78 0)
+			(at 137.16 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2015,7 +3429,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 77.47 0)
+		(at 154.94 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2023,10 +3437,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c615621-1749-41d8-a788-a37ffc5aea0d")
-		(property "Reference" "C1"
-			(at 95.25 76.1999 0)
+		(uuid "a2b6466b-cc96-4c10-a774-f8908f4099f7")
+		(property "Reference" "C12"
+			(at 157.48 101.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2036,8 +3449,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 95.25 78.7399 0)
+		(property "Value" "470nF"
+			(at 157.48 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2047,8 +3460,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 92.4052 81.28 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
+			(at 155.9052 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,7 +3472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 77.47 0)
+			(at 154.94 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +3483,29 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 91.44 77.47 0)
+			(at 154.94 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "250V"
+			(at 157.48 104.902 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-poliester-470kpf-250v-serie-32521-epson.html"
+			(at 154.94 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2081,15 +3516,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ba44e5e8-5e95-43b8-9be5-34d830722862")
+			(uuid "3fe40136-4637-4b30-9b12-93597cde4428")
 		)
 		(pin "1"
-			(uuid "4a378bf9-1975-4f59-be6c-362486843485")
+			(uuid "c0c66205-1aa5-40aa-abab-4d3fef468ab7")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
-					(reference "C1")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2097,7 +3532,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 151.13 83.82 0)
+		(at 137.16 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2105,9 +3540,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bfe88cf1-38d6-4381-84f8-e06344f55704")
-		(property "Reference" "#PWR015"
-			(at 151.13 90.17 0)
+		(uuid "af76e4f8-ad40-45c9-a34d-f71290fb9548")
+		(property "Reference" "#PWR037"
+			(at 137.16 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2118,7 +3553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 88.138 0)
+			(at 137.16 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2128,7 +3563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 83.82 0)
+			(at 137.16 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +3574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 83.82 0)
+			(at 137.16 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,7 +3585,277 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 151.13 83.82 0)
+			(at 137.16 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3f22b38-6fc4-473f-8baf-df9743db2eda")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1N4007_1")
+		(lib_id "Diode:1N4007")
+		(at 186.69 113.03 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7941c7c-bb1d-42a7-ae9c-b82b0286d6d5")
+		(property "Reference" "D5"
+			(at 188.976 109.728 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR1545CT"
+			(at 183.388 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 182.245 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
+			(at 186.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 186.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 186.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/diodo-retificador-ultra-rapido-uf4007-1000v-1a-dc-25448.html"
+			(at 186.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "313f8bdc-26a7-4e6a-9bb3-7ef157105a77")
+		)
+		(pin "1"
+			(uuid "c6292b61-519a-4f08-83d2-aadd6f4b23eb")
+		)
+		(pin "3"
+			(uuid "19edec17-e54c-480d-a73a-ed8ffaf397be")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 176.53 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b838e396-e3b3-4d2a-a17c-2d56470d4cdc")
+		(property "Reference" "#PWR014"
+			(at 176.53 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54387afe-921c-4afd-ace4-4904b30ed426")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 215.9 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfe88cf1-38d6-4381-84f8-e06344f55704")
+		(property "Reference" "#PWR015"
+			(at 215.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 121.158 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 215.9 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2167,6 +3872,212 @@
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 110.49 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eec5a82b-3b22-402a-8efe-e49882d98aea")
+		(property "Reference" "C11"
+			(at 113.284 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 113.284 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H7.0mm_P2.00mm"
+			(at 111.4552 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 110.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-eletrolitico-4-7uf-63v.html"
+			(at 110.49 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 113.284 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "50eb242a-034e-4f6f-a9d5-12e7b7932314")
+		)
+		(pin "1"
+			(uuid "cf048db5-e0c7-4b81-9feb-fdc94c0bdb25")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 170.18 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4bc3317-3671-41f1-a354-d414704a57da")
+		(property "Reference" "R26"
+			(at 166.37 99.0601 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kR"
+			(at 166.37 101.092 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 170.18 94.742 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 170.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/4W"
+			(at 166.37 103.1241 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
+			(at 170.18 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89d5e0bf-5bba-4e7f-a1a8-2303399d2491")
+		)
+		(pin "2"
+			(uuid "29a88d35-c183-4b03-bb76-2c16d39fc57f")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/158ee772-3f55-4806-ae2f-18e95f09a57b"
+					(reference "R26")
 					(unit 1)
 				)
 			)
