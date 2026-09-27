@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "OUTPUT")
+		(date "2026-09-27")
 		(rev "A")
 		(company "Author: Ygor K.")
 	)
@@ -497,6 +498,308 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDREF"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDREF"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDREF_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDREF_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 125.73 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f969ea8-3bac-46e4-9326-1fdd8064cb6c")
+	)
+	(junction
+		(at 125.73 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb9b9be-9a56-4612-a746-850798ec78ce")
 	)
 	(junction
 		(at 130.81 96.52)
@@ -540,7 +843,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 130.81 96.52)
+			(xy 125.73 106.68) (xy 130.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6266db72-3a76-45eb-bd44-3178bc182342")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 125.73 96.52)
 		)
 		(stroke
 			(width 0)
@@ -590,7 +903,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 130.81 106.68)
+			(xy 125.73 96.52) (xy 130.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4049ca-52b5-4b14-8f54-80fe09c6a5ce")
+	)
+	(wire
+		(pts
+			(xy 123.19 106.68) (xy 125.73 106.68)
 		)
 		(stroke
 			(width 0)
@@ -598,9 +921,19 @@
 		)
 		(uuid "d0742fe0-b9c6-4aab-8f70-a8e08381ae03")
 	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7aeb19d-2a9a-42b8-8ea3-610747044a1b")
+	)
 	(hierarchical_label "+Vout"
 		(shape passive)
-		(at 127 96.52 180)
+		(at 123.19 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -611,7 +944,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 127 106.68 180)
+		(at 123.19 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,8 +954,8 @@
 		(uuid "f27b0181-462d-4de4-b2d3-1974c6ab6829")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 96.52 0)
+		(lib_id "power:VCC")
+		(at 125.73 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -630,7 +963,85 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "625fc910-543e-495c-8db4-60d5641c3458")
+		(uuid "3144dcca-4e38-4ce8-8075-98bed6d5574e")
+		(property "Reference" "#PWR028"
+			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+Vout"
+			(at 125.73 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b36ddd4-17cb-40f8-837c-bdd85e00bc85")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/74582b42-0ce4-4cfd-893d-1b8aeecfe42a"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 154.94 99.06 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60fa3b63-d816-420c-bb76-c975933dc8f6")
 		(property "Reference" "CN2"
 			(at 154.94 93.98 0)
 			(show_name no)
@@ -642,7 +1053,7 @@
 			)
 		)
 		(property "Value" "STLZ950GH"
-			(at 154.94 102.108 0)
+			(at 154.94 93.472 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -653,7 +1064,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 154.94 96.52 0)
+			(at 154.94 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -664,7 +1075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 96.52 0)
+			(at 154.94 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -675,7 +1086,7 @@
 			)
 		)
 		(property "Description" "Conector Verde Multipolar STLZ950GH Macho 90º (Horizontal) Com as Laterais Fechadas - Passo 5,08mm"
-			(at 154.94 96.52 0)
+			(at 154.94 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -686,7 +1097,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/conector-verde-multipolar-stlz950gh-macho-90-horizontal-com-as-laterais-fechadas-passo-5-08mm-2-a-18-vias-phoenix-mecano.html"
-			(at 154.94 96.52 0)
+			(at 154.94 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -697,15 +1108,185 @@
 			)
 		)
 		(pin "1"
-			(uuid "41e2b4ec-fbfe-40a0-9534-cbeb75dab2b6")
+			(uuid "809636cc-a14b-492d-8878-f5e1f14c76d7")
 		)
 		(pin "2"
-			(uuid "4026f778-d094-400b-a715-17c5fe3ab41d")
+			(uuid "93608d69-e516-47c7-b96a-439d7b216077")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/74582b42-0ce4-4cfd-893d-1b8aeecfe42a"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 125.73 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96a3122c-f7ab-4d16-a306-6e3c19284459")
+		(property "Reference" "#PWR048"
+			(at 125.73 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 125.73 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "342ad94e-1c1e-417f-b3eb-0fb8de01cae0")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/74582b42-0ce4-4cfd-893d-1b8aeecfe42a"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_1")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 160.02 99.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "a8ef4d5f-5c0b-4cec-9425-a32fc6c8907b")
+		(property "Reference" "EXT2"
+			(at 160.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AKZ950"
+			(at 160.02 93.472 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Conector Verde Multipolar AKZ950 Fêmea - Passo 5,08mm"
+			(at 160.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/conector-verde-multipolar-akz950-femea-passo-5-08mm-phoenix-mecano.html"
+			(at 160.02 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eedccecc-84ec-4183-87f7-8038661fab84")
+		)
+		(pin "2"
+			(uuid "862363ee-9f8c-41e9-87b0-5e492acd2a3b")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/74582b42-0ce4-4cfd-893d-1b8aeecfe42a"
+					(reference "EXT2")
 					(unit 1)
 				)
 			)
@@ -809,100 +1390,6 @@
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/74582b42-0ce4-4cfd-893d-1b8aeecfe42a"
 					(reference "Z2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Conn_01x02_1")
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 160.02 96.52 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "fa1f115c-1a25-4d43-8665-d7599e391923")
-		(property "Reference" "EXT2"
-			(at 160.02 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AKZ950"
-			(at 160.02 102.108 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Conector Verde Multipolar AKZ950 Fêmea - Passo 5,08mm"
-			(at 160.02 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Link" "https://www.multcomercial.com.br/conector-verde-multipolar-akz950-femea-passo-5-08mm-phoenix-mecano.html"
-			(at 160.02 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60060e9e-c5df-4a5b-9151-580755c21346")
-		)
-		(pin "2"
-			(uuid "63eda8ec-7a72-41ef-a04c-337e2eadf1ea")
-		)
-		(instances
-			(project "DCDC-Buck"
-				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/74582b42-0ce4-4cfd-893d-1b8aeecfe42a"
-					(reference "EXT2")
 					(unit 1)
 				)
 			)

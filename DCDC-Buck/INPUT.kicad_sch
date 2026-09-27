@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "INPUT")
+		(date "2026-09-27")
 		(rev "A")
 		(company "Author: Ygor K.")
 	)
@@ -1796,6 +1797,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Vin-min: 17.5V\nVin-max: 32.5V"
+		(exclude_from_sim no)
+		(at 94.488 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2d5c1f6-2cd8-43ef-a326-5492621c8711")
+	)
 	(junction
 		(at 119.38 93.98)
 		(diameter 0)
@@ -1815,13 +1826,19 @@
 		(uuid "296d808c-34f3-45ee-b17d-1f5cb2443921")
 	)
 	(junction
-		(at 144.78 93.98)
+		(at 205.74 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f9dc0f7-df85-4350-b5ab-ba2b1d867553")
+	)
+	(junction
+		(at 138.43 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bea31d6-de9e-4055-9988-8aea08bd985a")
 	)
 	(junction
-		(at 119.38 102.87)
+		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "878ca696-5c5a-49a7-91ac-128ad9b33127")
@@ -1904,13 +1921,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 102.87)
+			(xy 104.14 96.52) (xy 104.14 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4ae30dab-6dff-415e-8d91-2ac1f089d725")
+	)
+	(wire
+		(pts
+			(xy 119.38 104.14) (xy 119.38 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd5ef7d-261c-4ec3-9f34-953bbdbf9197")
 	)
 	(wire
 		(pts
@@ -1934,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 102.87) (xy 119.38 102.87)
+			(xy 104.14 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1954,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 144.78 95.25)
+			(xy 138.43 93.98) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1994,16 +2021,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 102.87) (xy 119.38 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b5bc59-821d-4f68-968d-88c1c5bf7db3")
-	)
-	(wire
-		(pts
 			(xy 198.12 82.55) (xy 193.04 82.55)
 		)
 		(stroke
@@ -2024,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 93.98) (xy 207.01 93.98)
+			(xy 203.2 93.98) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2094,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 93.98) (xy 144.78 93.98)
+			(xy 133.35 93.98) (xy 173.99 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2104,7 +2121,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 133.35 93.98)
+			(xy 119.38 93.98) (xy 125.73 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2124,16 +2141,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 173.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb36bd30-8752-4d32-a71e-91d256b0e7e9")
-	)
-	(wire
-		(pts
 			(xy 203.2 93.98) (xy 203.2 95.25)
 		)
 		(stroke
@@ -2144,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 102.87) (xy 144.78 105.41)
+			(xy 138.43 102.87) (xy 138.43 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2176,7 +2183,7 @@
 	)
 	(hierarchical_label "+15V"
 		(shape passive)
-		(at 207.01 93.98 0)
+		(at 208.28 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2196,7 +2203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "157e5f1c-74cb-4794-bce4-4bbb373ab287")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 189.23 79.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2298,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2431,7 +2438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 204.1652 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2475,7 +2482,7 @@
 				(justify left)
 			)
 		)
-		(property "Link" "https://www.multcomercial.com.br/capacitor-multicamada-100kpf-50v-cod-loja-349.html"
+		(property "Link" "https://www.multcomercial.com.br/capacitor-ceramico-disco-100kpf-50v-104-100nf-0-1uf-cod-loja-1351.html"
 			(at 203.2 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2512,7 +2519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a531f2a-a0de-401c-9bc6-9026e9ef7cc8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2572,7 +2579,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
 			(at 174.9552 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -2692,7 +2699,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5994d04a-9623-4515-9b71-1e79aefe5de0")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 189.23 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -2752,7 +2759,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2760,7 +2767,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N47xxA")
-		(at 144.78 99.06 270)
+		(at 138.43 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2770,7 +2777,7 @@
 		(dnp no)
 		(uuid "663f7b60-f6d3-49ef-844f-5c7230f5ef30")
 		(property "Reference" "Z1"
-			(at 147.32 98.044 90)
+			(at 140.97 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2781,7 +2788,7 @@
 			)
 		)
 		(property "Value" "1N4752A"
-			(at 147.32 100.3299 90)
+			(at 140.97 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2792,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 140.335 99.06 0)
+			(at 133.985 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2803,7 +2810,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85816/1n4728a.pdf"
-			(at 144.78 99.06 0)
+			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +2821,7 @@
 			)
 		)
 		(property "Description" "1300mW Silicon planar power Zener diodes, DO-41"
-			(at 144.78 99.06 0)
+			(at 138.43 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2825,7 +2832,7 @@
 			)
 		)
 		(property "Zener Voltage" "33V"
-			(at 147.32 102.616 90)
+			(at 140.97 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2836,7 +2843,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/diodo-zener-1n4752a-33v-1-watt-1w-do41-cod-loja-1018-semtech-26115.html"
-			(at 144.78 99.06 90)
+			(at 138.43 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2872,7 +2879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f23d6dc-ebd8-44d8-bd9e-7450676ca2e1")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR013"
 			(at 119.38 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2932,7 +2939,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR018")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80b22625-9105-4d8d-bf65-303581b97acd")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3109,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3220,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bb3f247-4bbb-4730-96d6-1dbfca984786")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR016"
 			(at 173.99 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3280,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cccd7ca1-c6c8-406b-80d5-19019fba4288")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR015"
 			(at 158.75 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3442,84 +3449,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 203.2 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d91dd715-b3df-4490-b001-726334c97791")
-		(property "Reference" "#PWR012"
-			(at 203.2 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 203.2 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 203.2 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c9fc1cea-1645-437a-886f-77adffff798d")
-		)
-		(instances
-			(project "DCDC-Buck"
-				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3457,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Filled")
-		(at 119.38 99.06 90)
+		(at 119.38 99.06 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3535,27 +3465,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dcab2012-d3de-41df-9c20-381fca692608")
+		(uuid "ce4908a4-b235-4ee5-b09a-27dfa411e68f")
 		(property "Reference" "TVS1"
-			(at 121.92 98.044 90)
+			(at 121.158 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "P6KE36CA"
-			(at 121.92 100.3299 90)
+			(at 121.158 102.6161 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-15_P10.16mm_Horizontal"
@@ -3592,21 +3522,21 @@
 			)
 		)
 		(property "Breakdown Voltage" "30.8V"
-			(at 121.92 102.616 90)
+			(at 121.158 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "1"
-			(uuid "e764dd4b-45c2-410a-b7b2-779fc63e6b92")
+			(uuid "c50f2450-c290-4aa9-baa7-966595230164")
 		)
 		(pin "2"
-			(uuid "eecff129-c9f9-4a92-bd81-ad9be2692bbe")
+			(uuid "c393aa48-594c-4df2-ae88-e5fca4b05b03")
 		)
 		(instances
 			(project "DCDC-Buck"
@@ -3618,8 +3548,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 205.74 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d91dd715-b3df-4490-b001-726334c97791")
+		(property "Reference" "#PWR012"
+			(at 205.74 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 205.74 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 205.74 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9fc1cea-1645-437a-886f-77adffff798d")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5822")
-		(at 137.16 93.98 180)
+		(at 129.54 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3628,8 +3635,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4209d36-ddf7-4074-a9d1-03ff5ce2dad5")
-		(property "Reference" "D1"
-			(at 137.16 91.186 0)
+		(property "Reference" "D2"
+			(at 129.54 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3639,7 +3646,7 @@
 			)
 		)
 		(property "Value" "1N5822"
-			(at 137.16 96.774 0)
+			(at 129.54 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3649,7 +3656,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 137.16 89.535 0)
+			(at 129.54 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3660,7 +3667,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88526/1n5820.pdf"
-			(at 137.16 93.98 0)
+			(at 129.54 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3671,7 +3678,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, DO-201AD"
-			(at 137.16 93.98 0)
+			(at 129.54 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3689,7 @@
 			)
 		)
 		(property "Max Current" "3A"
-			(at 137.16 98.806 0)
+			(at 129.54 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3692,7 +3699,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/diodo-retificador-1n5822rl-do-201ad-on.html"
-			(at 137.16 93.98 0)
+			(at 129.54 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3711,7 +3718,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3726,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 144.78 105.41 0)
+		(at 138.43 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3728,8 +3735,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc8047f7-e0f1-44e8-a63c-a2d626fd4d12")
-		(property "Reference" "#PWR016"
-			(at 144.78 111.76 0)
+		(property "Reference" "#PWR014"
+			(at 138.43 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3740,7 +3747,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 109.728 0)
+			(at 138.43 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3750,7 +3757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 105.41 0)
+			(at 138.43 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 105.41 0)
+			(at 138.43 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,7 +3779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 144.78 105.41 0)
+			(at 138.43 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3788,7 +3795,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/3264d0cf-f62d-44ff-872c-26538f905029"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CONTROLLER")
+		(date "2026-09-27")
 		(rev "A")
 		(company "Author: Ygor K.")
 	)
@@ -573,6 +574,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1005,80 +1183,110 @@
 		)
 	)
 	(junction
-		(at 101.6 97.79)
+		(at 120.65 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00255156-3fbb-41ad-92d8-a16b64d66702")
 	)
 	(junction
-		(at 166.37 97.79)
+		(at 228.6 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a27fe9d-64d8-403f-a9e9-5d610c62f267")
+	)
+	(junction
+		(at 185.42 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f20614f-b753-4f00-893c-7c59216295ce")
 	)
 	(junction
-		(at 148.59 97.79)
+		(at 167.64 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13930e28-bf63-4283-80b0-e431cd2e9fb4")
 	)
 	(junction
-		(at 237.49 107.95)
+		(at 109.22 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2db696ea-4da6-4e12-8222-874ecde5c74c")
 	)
 	(junction
-		(at 237.49 92.71)
+		(at 109.22 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37ac9387-3494-4135-af19-df60085a01c8")
 	)
 	(junction
-		(at 81.28 102.87)
+		(at 100.33 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3de8c7c8-d536-49c4-a644-eb8f3d769557")
 	)
 	(junction
-		(at 57.15 106.68)
+		(at 76.2 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50b70994-9792-4d02-aa2e-d9eaf31faa14")
 	)
 	(junction
-		(at 119.38 97.79)
+		(at 125.73 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "542444d7-03e9-473f-9303-5cf07bed523d")
+	)
+	(junction
+		(at 121.92 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d3a301a-1183-486d-a8ce-bc6da2ca3621")
+	)
+	(junction
+		(at 138.43 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eabed6c-24ae-416a-adfa-be2e65f708b2")
 	)
 	(junction
-		(at 46.99 97.79)
+		(at 66.04 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab0e1073-dde5-48b1-94ea-a52be38955a5")
 	)
 	(junction
-		(at 128.27 102.87)
+		(at 147.32 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de9b605f-4be3-492d-b495-be89b5a64665")
 	)
 	(junction
-		(at 119.38 100.33)
+		(at 138.43 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea7472f7-8be0-4fd3-9cdf-32cd52ab11c9")
 	)
 	(junction
-		(at 74.93 100.33)
+		(at 121.92 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1533a83-d664-4c9d-9bb3-e1173220839a")
+	)
+	(junction
+		(at 125.73 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa207682-8112-4237-95bb-8718217ee84d")
+	)
+	(junction
+		(at 93.98 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe0cdca4-5067-4846-95e6-adf1a2747ab8")
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 101.6 97.79)
+			(xy 118.11 87.63) (xy 120.65 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1296,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 106.68) (xy 64.77 106.68)
+			(xy 76.2 96.52) (xy 83.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1306,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 97.79) (xy 119.38 87.63)
+			(xy 138.43 87.63) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1316,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 97.79) (xy 46.99 97.79)
+			(xy 78.74 87.63) (xy 66.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1326,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 166.37 100.33)
+			(xy 185.42 87.63) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 102.87) (xy 102.87 102.87)
+			(xy 100.33 92.71) (xy 121.92 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1346,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 115.57) (xy 46.99 116.84)
+			(xy 125.73 125.73) (xy 128.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3024845d-630d-4c16-9d4d-4e7e562a861f")
+	)
+	(wire
+		(pts
+			(xy 66.04 105.41) (xy 66.04 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1366,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 102.87) (xy 57.15 102.87)
+			(xy 78.74 92.71) (xy 76.2 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1376,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 107.95) (xy 237.49 107.95)
+			(xy 102.87 140.97) (xy 109.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1386,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 119.38 97.79)
+			(xy 138.43 90.17) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1396,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 118.11) (xy 119.38 100.33)
+			(xy 138.43 107.95) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1406,27 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 106.68) (xy 74.93 100.33)
+			(xy 121.92 140.97) (xy 128.27 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5d6ff9-bb40-4d68-a3ad-c808d5a52bd4")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 109.22 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "421606d3-4f18-4e94-95c8-754de97b32b1")
+	)
+	(wire
+		(pts
+			(xy 93.98 96.52) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1436,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 148.59 97.79)
+			(xy 165.1 87.63) (xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1446,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 102.87)
+			(xy 100.33 83.82) (xy 100.33 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 87.63) (xy 148.59 97.79)
+			(xy 167.64 77.47) (xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 149.86 102.87)
+			(xy 147.32 92.71) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1476,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 97.79) (xy 46.99 107.95)
+			(xy 228.6 90.17) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fa87b0-5a36-4fbb-80f9-711ce1ea7ae6")
+	)
+	(wire
+		(pts
+			(xy 66.04 87.63) (xy 66.04 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1496,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 148.59 87.63)
+			(xy 172.72 77.47) (xy 167.64 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1506,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 104.14) (xy 237.49 107.95)
+			(xy 109.22 137.16) (xy 109.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1516,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 166.37 97.79)
+			(xy 185.42 77.47) (xy 185.42 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 201.93 100.33)
+			(xy 218.44 90.17) (xy 219.71 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1536,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 166.37 87.63)
+			(xy 180.34 77.47) (xy 185.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1298,17 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 107.95) (xy 237.49 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67896fc8-8f94-418e-a6b3-71bb5f06e051")
-	)
-	(wire
-		(pts
-			(xy 148.59 97.79) (xy 149.86 97.79)
+			(xy 167.64 87.63) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 168.91 97.79)
+			(xy 185.42 87.63) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1566,17 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 118.11) (xy 237.49 107.95)
+			(xy 228.6 106.68) (xy 228.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cc08b83-1975-483b-a489-a657eb84e5c1")
+	)
+	(wire
+		(pts
+			(xy 125.73 142.24) (xy 125.73 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 102.87) (xy 57.15 107.95)
+			(xy 76.2 92.71) (xy 76.2 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 87.63) (xy 101.6 97.79)
+			(xy 120.65 77.47) (xy 120.65 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1606,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 100.33) (xy 119.38 100.33)
+			(xy 137.16 90.17) (xy 138.43 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1616,37 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 184.15 97.79)
+			(xy 228.6 90.17) (xy 231.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967dccfb-b2a8-442d-aaed-8d3d9c44bc40")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9834437a-e496-46cd-9ed1-ed8ca5f94706")
+	)
+	(wire
+		(pts
+			(xy 121.92 137.16) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a528ab6e-0ee1-4510-87cf-1ebee13b3e74")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 203.2 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 92.71) (xy 237.49 96.52)
+			(xy 109.22 125.73) (xy 109.22 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 88.9) (xy 237.49 92.71)
+			(xy 125.73 124.46) (xy 125.73 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1676,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 95.25) (xy 46.99 97.79)
+			(xy 121.92 140.97) (xy 109.22 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae36749f-8beb-4272-8baf-013877feab8b")
+	)
+	(wire
+		(pts
+			(xy 66.04 85.09) (xy 66.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 92.71) (xy 237.49 92.71)
+			(xy 102.87 125.73) (xy 109.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 119.38 118.11)
+			(xy 76.2 107.95) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 91.44 97.79)
+			(xy 93.98 87.63) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1726,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 101.6 87.63)
+			(xy 125.73 77.47) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 114.3 87.63)
+			(xy 138.43 77.47) (xy 133.35 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1746,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 102.87) (xy 128.27 109.22)
+			(xy 125.73 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22311de-4925-4e1c-903d-8166037b97b7")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 74.93 100.33)
+			(xy 93.98 87.63) (xy 93.98 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 115.57) (xy 57.15 118.11)
+			(xy 76.2 105.41) (xy 76.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1786,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 102.87 97.79)
+			(xy 120.65 87.63) (xy 121.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1796,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 74.93 106.68)
+			(xy 91.44 96.52) (xy 93.98 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 100.33) (xy 165.1 100.33)
+			(xy 185.42 90.17) (xy 184.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1816,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 100.33) (xy 212.09 100.33)
+			(xy 227.33 90.17) (xy 228.6 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1528,17 +1826,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 92.71) (xy 240.03 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd40fa83-d278-41e6-8070-40be7421e4c7")
-	)
-	(wire
-		(pts
-			(xy 128.27 95.25) (xy 128.27 102.87)
+			(xy 147.32 85.09) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 184.15 102.87)
+			(xy 200.66 92.71) (xy 203.2 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 97.79) (xy 138.43 97.79)
+			(xy 138.43 87.63) (xy 157.48 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1855,7 @@
 		(uuid "ff66f60b-dd36-49a9-8b5c-393fca7c03c2")
 	)
 	(label "Vtri"
-		(at 176.53 97.79 0)
+		(at 195.58 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1578,7 +1866,7 @@
 	)
 	(hierarchical_label "Vpwm"
 		(shape output)
-		(at 212.09 100.33 0)
+		(at 231.14 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,7 +1877,7 @@
 	)
 	(hierarchical_label "+15V"
 		(shape passive)
-		(at 240.03 92.71 0)
+		(at 128.27 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1600,7 +1888,7 @@
 	)
 	(hierarchical_label "Verr"
 		(shape input)
-		(at 181.61 102.87 180)
+		(at 200.66 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,7 +1899,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 240.03 107.95 0)
+		(at 128.27 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1622,7 +1910,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 87.63 90)
+		(at 176.53 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1631,8 +1919,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0104a374-611a-4fd1-8b33-48b3650ad41a")
-		(property "Reference" "R21"
-			(at 154.686 90.424 90)
+		(property "Reference" "R3"
+			(at 173.736 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1643,7 +1931,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 154.686 92.7099 90)
+			(at 173.736 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1654,7 +1942,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 157.48 89.408 90)
+			(at 176.53 79.248 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1665,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 87.63 0)
+			(at 176.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1676,7 +1964,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 87.63 0)
+			(at 176.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1687,7 +1975,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 154.686 94.742 90)
+			(at 173.736 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1698,7 +1986,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 157.48 87.63 0)
+			(at 176.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1717,7 +2005,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R21")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1725,7 +2013,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 111.76 0)
+		(at 76.2 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1734,8 +2022,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0715ca7a-957a-43d1-bed2-711537be41dc")
-		(property "Reference" "R13"
-			(at 58.674 109.474 0)
+		(property "Reference" "R14"
+			(at 77.724 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1746,7 +2034,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 58.674 111.7599 0)
+			(at 77.724 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1757,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 55.372 111.76 90)
+			(at 74.422 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1768,7 +2056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 111.76 0)
+			(at 76.2 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1779,7 +2067,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 111.76 0)
+			(at 76.2 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1790,7 +2078,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 58.674 113.792 0)
+			(at 77.724 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +2089,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 57.15 111.76 0)
+			(at 76.2 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1820,7 +2108,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1828,7 +2116,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 106.68 0)
+		(at 100.33 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1837,8 +2125,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07b8539e-7d50-4d54-af89-75359b1bffa0")
-		(property "Reference" "R17"
-			(at 83.82 105.664 0)
+		(property "Reference" "R12"
+			(at 102.87 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1849,7 +2137,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 83.82 107.9499 0)
+			(at 102.87 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1860,7 +2148,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 79.502 106.68 90)
+			(at 98.552 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,7 +2159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 106.68 0)
+			(at 100.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1882,7 +2170,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 106.68 0)
+			(at 100.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +2181,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 83.82 109.982 0)
+			(at 102.87 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1904,7 +2192,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 81.28 106.68 0)
+			(at 100.33 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1923,7 +2211,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R17")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1931,7 +2219,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 46.99 116.84 0)
+		(at 66.04 106.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1941,8 +2229,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09ed4b9b-4993-410e-8fed-0b84b88ee102")
-		(property "Reference" "#PWR028"
-			(at 46.99 123.19 0)
+		(property "Reference" "#PWR033"
+			(at 66.04 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +2241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 121.158 0)
+			(at 66.04 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1963,7 +2251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 116.84 0)
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1974,7 +2262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 116.84 0)
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1985,7 +2273,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 46.99 116.84 0)
+			(at 66.04 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2001,7 +2289,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2297,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 111.76 0)
+		(at 66.04 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2018,8 +2306,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a9e1368-3320-4948-a1c2-aadeca6dda61")
-		(property "Reference" "R12"
-			(at 48.768 109.474 0)
+		(property "Reference" "R13"
+			(at 67.818 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2030,7 +2318,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 48.768 111.7599 0)
+			(at 67.818 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2041,7 +2329,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 45.212 111.76 90)
+			(at 64.262 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2052,7 +2340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 111.76 0)
+			(at 66.04 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2063,7 +2351,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 111.76 0)
+			(at 66.04 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2074,7 +2362,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 48.768 113.792 0)
+			(at 67.818 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2085,7 +2373,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 46.99 111.76 0)
+			(at 66.04 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2104,15 +2392,15 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 128.27 91.44 0)
+		(lib_id "Device:C")
+		(at 228.6 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2120,9 +2408,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1b71e394-5ead-4ad4-a817-47166c5afbe2")
-		(property "Reference" "R19"
-			(at 130.81 90.678 0)
+		(uuid "15800ca6-02cb-4824-a4f5-b57e47a46689")
+		(property "Reference" "C9"
+			(at 231.648 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2132,8 +2420,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kR"
-			(at 130.81 92.7099 0)
+		(property "Value" "100pF"
+			(at 231.648 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2143,8 +2431,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 126.492 91.44 90)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 229.5652 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2443,110 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 91.44 0)
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "100V"
+			(at 231.648 101.092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-ceramico-disco-100pf-100v-avx.html"
+			(at 228.6 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20770950-a4e5-46dc-9c3a-218d882a7486")
+		)
+		(pin "1"
+			(uuid "ce245238-2b23-48dc-a935-b228067daf1e")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b71e394-5ead-4ad4-a817-47166c5afbe2")
+		(property "Reference" "R6"
+			(at 149.86 80.518 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 149.86 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 145.542 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2166,7 +2557,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 91.44 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2177,7 +2568,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 130.81 94.742 0)
+			(at 149.86 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2188,7 +2579,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 128.27 91.44 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +2598,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R19")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2215,7 +2606,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 128.27 116.84 0)
+		(at 147.32 106.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2225,8 +2616,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "218e5f08-6037-4546-9046-5fc5dd979d47")
-		(property "Reference" "#PWR032"
-			(at 128.27 123.19 0)
+		(property "Reference" "#PWR034"
+			(at 147.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2237,7 +2628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 121.158 0)
+			(at 147.32 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2247,7 +2638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 116.84 0)
+			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 116.84 0)
+			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2269,7 +2660,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 128.27 116.84 0)
+			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,7 +2676,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2293,7 +2684,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 128.27 87.63 0)
+		(at 147.32 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2303,7 +2694,7 @@
 		(dnp no)
 		(uuid "26749f70-0018-4bba-b4c3-bbdb865bb0d1")
 		(property "Reference" "#PWR031"
-			(at 128.27 91.44 0)
+			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2314,7 +2705,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 128.27 83.82 0)
+			(at 147.32 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2324,7 +2715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 87.63 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2335,7 +2726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 87.63 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2346,7 +2737,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 128.27 87.63 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2761,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 237.49 100.33 0)
+		(at 109.22 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2379,8 +2770,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a9e0dc4-dbce-44f6-9e07-372173461af2")
-		(property "Reference" "C8"
-			(at 240.538 98.298 0)
+		(property "Reference" "C10"
+			(at 112.268 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2391,7 +2782,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 240.538 100.33 0)
+			(at 112.268 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2401,8 +2792,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 238.4552 104.14 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 110.1852 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2413,7 +2804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 100.33 0)
+			(at 109.22 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2815,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 237.49 100.33 0)
+			(at 109.22 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2435,7 +2826,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 240.538 102.362 0)
+			(at 112.268 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2445,8 +2836,8 @@
 				(justify left)
 			)
 		)
-		(property "Link" "https://www.multcomercial.com.br/capacitor-multicamada-100kpf-50v-cod-loja-349.html"
-			(at 237.49 100.33 0)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-ceramico-disco-100kpf-50v-104-100nf-0-1uf-cod-loja-1351.html"
+			(at 109.22 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2856,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 100.33 90)
+		(at 223.52 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2482,8 +2873,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e594f7f-ad5d-4c02-ad7d-d26f5b92c589")
-		(property "Reference" "R24"
-			(at 202.438 93.472 90)
+		(property "Reference" "R10"
+			(at 220.218 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2493,8 +2884,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100R"
-			(at 202.438 95.7579 90)
+		(property "Value" "1kR"
+			(at 220.218 85.5979 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2505,7 +2896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 205.74 102.108 90)
+			(at 223.52 91.948 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,7 +2907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 100.33 0)
+			(at 223.52 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2918,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 205.74 100.33 0)
+			(at 223.52 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2929,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 202.438 97.79 90)
+			(at 220.218 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2549,7 +2940,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 205.74 100.33 0)
+			(at 223.52 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,7 +2959,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R24")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2576,7 +2967,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 46.99 87.63 0)
+		(at 66.04 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2585,8 +2976,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a08cc83-a262-4867-b1c4-3e9fae80c752")
-		(property "Reference" "#PWR027"
-			(at 46.99 91.44 0)
+		(property "Reference" "#PWR030"
+			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2597,7 +2988,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 46.99 83.82 0)
+			(at 66.04 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2607,7 +2998,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 87.63 0)
+			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +3009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 87.63 0)
+			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2629,7 +3020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 46.99 87.63 0)
+			(at 66.04 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2645,7 +3036,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2653,7 +3044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 97.79 90)
+		(at 114.3 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2662,8 +3053,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f90a425-6946-4b25-83fe-07ed36a51f5c")
-		(property "Reference" "R15"
-			(at 92.202 91.1861 90)
+		(property "Reference" "R7"
+			(at 111.252 81.0261 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2674,7 +3065,7 @@
 			)
 		)
 		(property "Value" "27kR"
-			(at 92.202 93.472 90)
+			(at 111.252 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2685,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 95.25 99.568 90)
+			(at 114.3 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2696,7 +3087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 97.79 0)
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +3098,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 97.79 0)
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,7 +3109,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 92.202 95.5041 90)
+			(at 111.252 85.3441 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2729,7 +3120,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 95.25 97.79 0)
+			(at 114.3 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2748,7 +3139,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2756,7 +3147,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 110.49 100.33 0)
+		(at 129.54 90.17 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -2766,8 +3157,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ea")
-		(property "Reference" "IC5"
-			(at 114.554 103.378 0)
+		(property "Reference" "IC3"
+			(at 133.604 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,7 +3168,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 108.966 100.33 0)
+			(at 128.016 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2786,8 +3177,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
-			(at 109.22 102.87 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+			(at 128.27 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2798,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 111.76 105.41 0)
+			(at 130.81 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +3200,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 110.49 100.33 0)
+			(at 129.54 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +3255,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 2)
 				)
 			)
@@ -2872,7 +3263,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 157.48 100.33 0)
+		(at 176.53 90.17 0)
 		(mirror x)
 		(unit 3)
 		(body_style 1)
@@ -2881,9 +3272,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ea")
-		(property "Reference" "IC5"
-			(at 160.782 104.14 0)
+		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86eb")
+		(property "Reference" "IC3"
+			(at 179.832 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2893,7 +3284,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 156.464 100.33 0)
+			(at 175.514 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2902,8 +3293,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
-			(at 156.21 102.87 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+			(at 175.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,7 +3305,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 158.75 105.41 0)
+			(at 177.8 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +3316,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 157.48 100.33 0)
+			(at 176.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,51 +3327,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "727070d8-6cc6-4231-b660-935d23cdedde")
+			(uuid "727070d8-6cc6-4231-b660-935d23cdeddf")
 		)
 		(pin "2"
-			(uuid "36347a04-b2b0-45ec-9646-a6f86443341d")
+			(uuid "36347a04-b2b0-45ec-9646-a6f86443341e")
 		)
 		(pin "5"
-			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d939")
+			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d93a")
 		)
 		(pin "7"
-			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace18")
+			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace19")
 		)
 		(pin "10"
-			(uuid "9d079215-7818-437b-8283-82ef4f7be4af")
+			(uuid "9d079215-7818-437b-8283-82ef4f7be4b0")
 		)
 		(pin "6"
-			(uuid "c7965813-a641-4ecb-b34e-0dd063687757")
+			(uuid "c7965813-a641-4ecb-b34e-0dd063687758")
 		)
 		(pin "8"
-			(uuid "45e0a109-afda-4d63-80f6-e634d88e7548")
+			(uuid "45e0a109-afda-4d63-80f6-e634d88e7549")
 		)
 		(pin "13"
-			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e4")
+			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e5")
 		)
 		(pin "9"
-			(uuid "17ca2164-06c4-4fb4-83e4-742de6071121")
+			(uuid "17ca2164-06c4-4fb4-83e4-742de6071122")
 		)
 		(pin "14"
-			(uuid "f42980e9-765a-4738-86e3-405617d705db")
+			(uuid "f42980e9-765a-4738-86e3-405617d705dc")
 		)
 		(pin "4"
-			(uuid "c72d73c8-967a-45d4-be52-ae66586804c2")
+			(uuid "c72d73c8-967a-45d4-be52-ae66586804c3")
 		)
 		(pin "3"
-			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e0")
+			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e1")
 		)
 		(pin "12"
-			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e6")
+			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e7")
 		)
 		(pin "11"
-			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671c7")
+			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671c8")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 3)
 				)
 			)
@@ -2988,7 +3379,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 67.31 100.33 0)
+		(at 86.36 90.17 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2997,9 +3388,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ea")
-		(property "Reference" "IC5"
-			(at 68.58 95.758 0)
+		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ec")
+		(property "Reference" "IC3"
+			(at 87.63 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3009,7 +3400,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 66.04 100.33 0)
+			(at 85.09 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3018,8 +3409,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
-			(at 66.04 102.87 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+			(at 85.09 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3030,7 +3421,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 68.58 105.41 0)
+			(at 87.63 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +3432,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 67.31 100.33 0)
+			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3052,51 +3443,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "727070d8-6cc6-4231-b660-935d23cdedde")
+			(uuid "727070d8-6cc6-4231-b660-935d23cdede0")
 		)
 		(pin "2"
-			(uuid "36347a04-b2b0-45ec-9646-a6f86443341d")
+			(uuid "36347a04-b2b0-45ec-9646-a6f86443341f")
 		)
 		(pin "5"
-			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d939")
+			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d93b")
 		)
 		(pin "7"
-			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace18")
+			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace1a")
 		)
 		(pin "10"
-			(uuid "9d079215-7818-437b-8283-82ef4f7be4af")
+			(uuid "9d079215-7818-437b-8283-82ef4f7be4b1")
 		)
 		(pin "6"
-			(uuid "c7965813-a641-4ecb-b34e-0dd063687757")
+			(uuid "c7965813-a641-4ecb-b34e-0dd063687759")
 		)
 		(pin "8"
-			(uuid "45e0a109-afda-4d63-80f6-e634d88e7548")
+			(uuid "45e0a109-afda-4d63-80f6-e634d88e754a")
 		)
 		(pin "13"
-			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e4")
+			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e6")
 		)
 		(pin "9"
-			(uuid "17ca2164-06c4-4fb4-83e4-742de6071121")
+			(uuid "17ca2164-06c4-4fb4-83e4-742de6071123")
 		)
 		(pin "14"
-			(uuid "f42980e9-765a-4738-86e3-405617d705db")
+			(uuid "f42980e9-765a-4738-86e3-405617d705dd")
 		)
 		(pin "4"
-			(uuid "c72d73c8-967a-45d4-be52-ae66586804c2")
+			(uuid "c72d73c8-967a-45d4-be52-ae66586804c4")
 		)
 		(pin "3"
-			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e0")
+			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e2")
 		)
 		(pin "12"
-			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e6")
+			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e8")
 		)
 		(pin "11"
-			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671c7")
+			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671c9")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -3104,7 +3495,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 233.68 100.33 0)
+		(at 105.41 133.35 0)
 		(mirror x)
 		(unit 5)
 		(body_style 1)
@@ -3114,9 +3505,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ea")
-		(property "Reference" "IC5"
-			(at 229.87 99.0599 0)
+		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ed")
+		(property "Reference" "IC3"
+			(at 101.6 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3127,7 +3518,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 229.87 101.5999 0)
+			(at 101.6 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3137,8 +3528,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
-			(at 232.41 102.87 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+			(at 104.14 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3540,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 234.95 105.41 0)
+			(at 106.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3551,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 233.68 100.33 0)
+			(at 105.41 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,51 +3562,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "727070d8-6cc6-4231-b660-935d23cdedde")
+			(uuid "727070d8-6cc6-4231-b660-935d23cdede1")
 		)
 		(pin "2"
-			(uuid "36347a04-b2b0-45ec-9646-a6f86443341d")
+			(uuid "36347a04-b2b0-45ec-9646-a6f864433420")
 		)
 		(pin "5"
-			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d939")
+			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d93c")
 		)
 		(pin "7"
-			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace18")
+			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace1b")
 		)
 		(pin "10"
-			(uuid "9d079215-7818-437b-8283-82ef4f7be4af")
+			(uuid "9d079215-7818-437b-8283-82ef4f7be4b2")
 		)
 		(pin "6"
-			(uuid "c7965813-a641-4ecb-b34e-0dd063687757")
+			(uuid "c7965813-a641-4ecb-b34e-0dd06368775a")
 		)
 		(pin "8"
-			(uuid "45e0a109-afda-4d63-80f6-e634d88e7548")
+			(uuid "45e0a109-afda-4d63-80f6-e634d88e754b")
 		)
 		(pin "13"
-			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e4")
+			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e7")
 		)
 		(pin "9"
-			(uuid "17ca2164-06c4-4fb4-83e4-742de6071121")
+			(uuid "17ca2164-06c4-4fb4-83e4-742de6071124")
 		)
 		(pin "14"
-			(uuid "f42980e9-765a-4738-86e3-405617d705db")
+			(uuid "f42980e9-765a-4738-86e3-405617d705de")
 		)
 		(pin "4"
-			(uuid "c72d73c8-967a-45d4-be52-ae66586804c2")
+			(uuid "c72d73c8-967a-45d4-be52-ae66586804c5")
 		)
 		(pin "3"
-			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e0")
+			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e3")
 		)
 		(pin "12"
-			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e6")
+			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e9")
 		)
 		(pin "11"
-			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671c7")
+			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671ca")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 5)
 				)
 			)
@@ -3223,7 +3614,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
-		(at 191.77 100.33 0)
+		(at 210.82 90.17 0)
 		(mirror x)
 		(unit 4)
 		(body_style 1)
@@ -3232,9 +3623,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ea")
-		(property "Reference" "IC5"
-			(at 195.834 103.632 0)
+		(uuid "4bd5651c-9d68-4451-aca5-d759d34d86ee")
+		(property "Reference" "IC3"
+			(at 214.884 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3244,7 +3635,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 190.5 100.33 0)
+			(at 209.55 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3253,8 +3644,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
-			(at 190.5 102.87 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
+			(at 209.55 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,7 +3656,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 193.04 105.41 0)
+			(at 212.09 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,7 +3667,7 @@
 			)
 		)
 		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
-			(at 191.77 100.33 0)
+			(at 210.82 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,51 +3678,51 @@
 			)
 		)
 		(pin "1"
-			(uuid "727070d8-6cc6-4231-b660-935d23cdedde")
+			(uuid "727070d8-6cc6-4231-b660-935d23cdede2")
 		)
 		(pin "2"
-			(uuid "36347a04-b2b0-45ec-9646-a6f86443341d")
+			(uuid "36347a04-b2b0-45ec-9646-a6f864433421")
 		)
 		(pin "5"
-			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d939")
+			(uuid "4372313c-9a0f-4d2f-9c83-f39db612d93d")
 		)
 		(pin "7"
-			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace18")
+			(uuid "5c9c15b0-56f5-4fc8-8228-23d8227ace1c")
 		)
 		(pin "10"
-			(uuid "9d079215-7818-437b-8283-82ef4f7be4af")
+			(uuid "9d079215-7818-437b-8283-82ef4f7be4b3")
 		)
 		(pin "6"
-			(uuid "c7965813-a641-4ecb-b34e-0dd063687757")
+			(uuid "c7965813-a641-4ecb-b34e-0dd06368775b")
 		)
 		(pin "8"
-			(uuid "45e0a109-afda-4d63-80f6-e634d88e7548")
+			(uuid "45e0a109-afda-4d63-80f6-e634d88e754c")
 		)
 		(pin "13"
-			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e4")
+			(uuid "99bb4303-55fa-45b3-bbfb-8ff7c9bf79e8")
 		)
 		(pin "9"
-			(uuid "17ca2164-06c4-4fb4-83e4-742de6071121")
+			(uuid "17ca2164-06c4-4fb4-83e4-742de6071125")
 		)
 		(pin "14"
-			(uuid "f42980e9-765a-4738-86e3-405617d705db")
+			(uuid "f42980e9-765a-4738-86e3-405617d705df")
 		)
 		(pin "4"
-			(uuid "c72d73c8-967a-45d4-be52-ae66586804c2")
+			(uuid "c72d73c8-967a-45d4-be52-ae66586804c6")
 		)
 		(pin "3"
-			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e0")
+			(uuid "bd945d28-82ae-4c29-8baa-4a03408560e4")
 		)
 		(pin "12"
-			(uuid "af5bbce7-9062-4d84-83db-bcb8506181e6")
+			(uuid "af5bbce7-9062-4d84-83db-bcb8506181ea")
 		)
 		(pin "11"
-			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671c7")
+			(uuid "c93cdc14-7a29-40a0-b92c-23d7fb1671cb")
 		)
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 4)
 				)
 			)
@@ -3339,7 +3730,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 110.49 87.63 90)
+		(at 129.54 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3348,8 +3739,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56abff24-ac50-42fb-9365-fa6c4a859b20")
-		(property "Reference" "C7"
-			(at 106.172 89.408 90)
+		(property "Reference" "C8"
+			(at 125.222 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3359,8 +3750,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 106.172 91.44 90)
+		(property "Value" "390pF"
+			(at 125.222 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3370,8 +3761,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 114.3 86.6648 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 133.35 76.5048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 87.63 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 110.49 87.63 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,7 +3795,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 106.172 93.472 90)
+			(at 125.222 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3414,8 +3805,8 @@
 				(justify right)
 			)
 		)
-		(property "Link" "https://www.multcomercial.com.br/capacitor-multicamada-100kpf-50v-cod-loja-349.html"
-			(at 110.49 87.63 0)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-ceramico-disco-390pf-50v-391-0-39nf-0-00039uf-cod-loja-1305.html"
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3825,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3442,7 +3833,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 106.68 90)
+		(at 87.63 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3451,8 +3842,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fc79266-e1df-4309-8501-5fe4932ee865")
-		(property "Reference" "R14"
-			(at 65.786 109.474 90)
+		(property "Reference" "R11"
+			(at 84.836 99.314 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3463,7 +3854,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 65.786 111.7599 90)
+			(at 84.836 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3474,7 +3865,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 68.58 108.458 90)
+			(at 87.63 98.298 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +3876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 106.68 0)
+			(at 87.63 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +3887,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 106.68 0)
+			(at 87.63 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +3898,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 65.786 113.792 90)
+			(at 84.836 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3518,7 +3909,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 68.58 106.68 0)
+			(at 87.63 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3537,7 +3928,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3545,7 +3936,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 81.28 110.49 0)
+		(at 100.33 100.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3555,8 +3946,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e37d50b-16d1-401e-b772-cd926e7662bd")
-		(property "Reference" "#PWR030"
-			(at 81.28 116.84 0)
+		(property "Reference" "#PWR032"
+			(at 100.33 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3958,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 114.808 0)
+			(at 100.33 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3577,7 +3968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 110.49 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +3979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 110.49 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,7 +3990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 81.28 110.49 0)
+			(at 100.33 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +4006,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3623,7 +4014,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 237.49 118.11 0)
+		(at 125.73 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3632,8 +4023,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "806d211d-e02b-4711-a555-5102a51624ef")
-		(property "Reference" "#PWR034"
-			(at 237.49 124.46 0)
+		(property "Reference" "#PWR037"
+			(at 125.73 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3644,7 +4035,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 122.428 0)
+			(at 125.73 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3654,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 118.11 0)
+			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +4056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 118.11 0)
+			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3676,7 +4067,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 237.49 118.11 0)
+			(at 125.73 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3692,15 +4083,16 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 128.27 113.03 0)
+		(lib_id "power:GNDREF")
+		(at 228.6 106.68 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3708,31 +4100,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "899702ca-ab84-408e-86be-d181d4d068d8")
-		(property "Reference" "R20"
-			(at 130.81 112.014 0)
+		(uuid "8426a94b-1b82-443d-a2d6-de5964d59d08")
+		(property "Reference" "#PWR035"
+			(at 228.6 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10kR"
-			(at 130.81 114.2999 0)
+		(property "Value" "GND"
+			(at 228.6 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 126.492 113.03 90)
+		(property "Footprint" ""
+			(at 228.6 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +4134,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 113.03 0)
+			(at 228.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 228.6 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63992aad-9c37-4b8f-b1d4-8e4fd6a77727")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "899702ca-ab84-408e-86be-d181d4d068d8")
+		(property "Reference" "R15"
+			(at 149.86 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10kR"
+			(at 149.86 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 145.542 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3754,7 +4223,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 113.03 0)
+			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3765,7 +4234,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 130.81 116.332 0)
+			(at 149.86 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3776,7 +4245,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 128.27 113.03 0)
+			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3795,7 +4264,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R20")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3803,7 +4272,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 91.44 0)
+		(at 66.04 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3812,8 +4281,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9890a77f-d472-4c32-9505-f0325942425f")
-		(property "Reference" "R11"
-			(at 49.53 90.424 0)
+		(property "Reference" "R5"
+			(at 68.58 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3824,7 +4293,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 49.53 92.7099 0)
+			(at 68.58 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3835,7 +4304,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 45.212 91.44 90)
+			(at 64.262 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,7 +4315,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 91.44 0)
+			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3857,7 +4326,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 46.99 91.44 0)
+			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,7 +4337,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 49.53 94.742 0)
+			(at 68.58 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3879,7 +4348,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 46.99 91.44 0)
+			(at 66.04 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3898,7 +4367,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3906,7 +4375,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 172.72 97.79 90)
+		(at 191.77 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3915,8 +4384,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b14f7e9-0906-4e61-97c1-718c0baab69a")
-		(property "Reference" "R22"
-			(at 169.418 90.932 90)
+		(property "Reference" "R9"
+			(at 188.468 80.772 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3927,7 +4396,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 169.418 93.2179 90)
+			(at 188.468 83.0579 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3938,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 172.72 99.568 90)
+			(at 191.77 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +4418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 97.79 0)
+			(at 191.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3960,7 +4429,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 172.72 97.79 0)
+			(at 191.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3971,7 +4440,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 169.418 95.25 90)
+			(at 188.468 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3982,7 +4451,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 172.72 97.79 0)
+			(at 191.77 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,15 +4470,15 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R22")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 237.49 88.9 0)
+		(lib_id "Device:C_Polarized")
+		(at 121.92 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4017,30 +4486,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ae3dd12c-2307-422c-90eb-47f0721409af")
-		(property "Reference" "#PWR033"
-			(at 237.49 92.71 0)
-			(hide yes)
+		(uuid "a7407e87-bdfc-425f-8cbc-6bd8f22e6079")
+		(property "Reference" "C11"
+			(at 124.714 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+15V"
-			(at 237.49 85.09 0)
+		(property "Value" "10uF"
+			(at 124.714 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 237.49 88.9 0)
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
+			(at 122.8852 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4051,7 +4521,109 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 88.9 0)
+			(at 121.92 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 121.92 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Link" "https://www.multcomercial.com.br/capacitor-eletrolitico-de-10uf-16v-a-450v.html"
+			(at 121.92 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 124.714 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "b62a721d-e677-478a-b292-a4189fdcb2c8")
+		)
+		(pin "1"
+			(uuid "13f0281b-1116-4297-886c-bba235b46d6f")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 125.73 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae3dd12c-2307-422c-90eb-47f0721409af")
+		(property "Reference" "#PWR036"
+			(at 125.73 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+15V"
+			(at 125.73 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,7 +4634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 237.49 88.9 0)
+			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +4650,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 97.79 90)
+		(at 161.29 87.63 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4095,8 +4667,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af545d6c-0d7f-42d0-8fc5-231bf019b1a6")
-		(property "Reference" "R18"
-			(at 139.192 91.186 90)
+		(property "Reference" "R8"
+			(at 158.242 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4107,7 +4679,7 @@
 			)
 		)
 		(property "Value" "2.2kR"
-			(at 139.192 93.218 90)
+			(at 158.242 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4118,7 +4690,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 142.24 99.568 90)
+			(at 161.29 89.408 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +4701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 97.79 0)
+			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4712,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 97.79 0)
+			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +4723,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 139.192 95.2501 90)
+			(at 158.242 85.0901 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4162,7 +4734,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 142.24 97.79 0)
+			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4753,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R18")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4189,7 +4761,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 90.17 0)
+		(at 100.33 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4198,8 +4770,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d53c71b9-b017-487d-97c9-0f3945ada847")
-		(property "Reference" "R16"
-			(at 83.82 89.408 0)
+		(property "Reference" "R4"
+			(at 102.87 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4210,7 +4782,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 83.82 91.4399 0)
+			(at 102.87 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4221,7 +4793,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 79.502 90.17 90)
+			(at 98.552 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +4804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 90.17 0)
+			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4815,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 90.17 0)
+			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4254,7 +4826,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 83.82 93.472 0)
+			(at 102.87 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4265,7 +4837,7 @@
 			)
 		)
 		(property "Link" "https://www.multcomercial.com.br/resistor-de-filme-de-carbono-1-4-de-watt-cr25-5-de-tolerancia-0-22r-a-10m.html"
-			(at 81.28 90.17 0)
+			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4856,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596/b4854b56-cd62-46e7-9f3e-c4c93ab06a71"
-					(reference "R16")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4292,7 +4864,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 81.28 86.36 0)
+		(at 100.33 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4302,7 +4874,7 @@
 		(dnp no)
 		(uuid "d6739cdd-9e5d-43a1-9cf9-3c98c11b4871")
 		(property "Reference" "#PWR029"
-			(at 81.28 90.17 0)
+			(at 100.33 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4885,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 81.28 82.55 0)
+			(at 100.33 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4323,7 +4895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 86.36 0)
+			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 86.36 0)
+			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4345,7 +4917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 81.28 86.36 0)
+			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

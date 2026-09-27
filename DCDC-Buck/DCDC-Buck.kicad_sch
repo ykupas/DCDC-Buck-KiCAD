@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "MAIN")
+		(date "2026-09-27")
 		(rev "A")
 		(company "Author: Ygor K.")
 	)
@@ -302,7 +303,25 @@
 		)
 	)
 	(junction
-		(at 217.17 57.15)
+		(at 114.3 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9810d6d3-ba2b-4fcd-9988-5737514e13fe")
+	)
+	(junction
+		(at 215.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d273637e-a3d7-4530-8cee-856c32b93f80")
+	)
+	(junction
+		(at 114.3 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ca665e-aec9-42de-878a-e3720a9c2df6")
+	)
+	(junction
+		(at 210.82 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fff6796e-c231-4eed-8fa3-a33348c215b4")
@@ -319,7 +338,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 217.17 106.68)
+			(xy 203.2 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -329,7 +348,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 217.17 57.15)
+			(xy 210.82 106.68) (xy 210.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -359,7 +378,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 105.41 63.5)
+			(xy 101.6 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
@@ -419,6 +438,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ba0325-6a87-4c59-a7d6-94ba67cfda9b")
+	)
+	(wire
+		(pts
 			(xy 123.19 105.41) (xy 123.19 106.68)
 		)
 		(stroke
@@ -449,7 +478,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 57.15) (xy 127 57.15)
+			(xy 101.6 57.15) (xy 114.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 57.15) (xy 217.17 57.15)
+			(xy 203.2 57.15) (xy 228.6 57.15)
 		)
 		(stroke
 			(width 0)
@@ -486,16 +515,6 @@
 			(type default)
 		)
 		(uuid "bc550a3d-b370-4288-b6e8-e0e6a75d4e0d")
-	)
-	(wire
-		(pts
-			(xy 217.17 57.15) (xy 228.6 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b3f01b-dcdc-4b77-9733-74954b35f820")
 	)
 	(wire
 		(pts
@@ -548,7 +567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f79e634-9810-4328-bfa4-e71f040b9d95")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 156.21 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -608,7 +627,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -625,7 +644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35894375-5e8e-481f-8ece-650dd87f021e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 123.19 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -685,7 +704,84 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR01")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 215.9 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43ece4f5-bd5c-4fcc-823d-5f1dd5d62b88")
+		(property "Reference" "#PWR02"
+			(at 215.9 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+Vout"
+			(at 215.9 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 215.9 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8101a692-0cbe-4f40-b0b5-2658df7b5eb0")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -702,7 +798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46d1092d-8c4d-47aa-a6c3-cd23236643d8")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR06"
 			(at 224.79 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -762,7 +858,84 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR02")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dac3db7-999d-434b-85e2-6f2c0de7cc7a")
+		(property "Reference" "#PWR01"
+			(at 114.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+Vin"
+			(at 114.3 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53bfbd79-58a6-4c6b-b347-88299ef6a105")
+		)
+		(instances
+			(project "DCDC-Buck"
+				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -779,7 +952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e598d30-d729-4bd5-a84a-0d77ae3ddd82")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 173.99 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -839,7 +1012,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -856,7 +1029,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9bcd0954-6230-40e8-806b-259002a43179")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 173.99 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -916,7 +1089,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -933,7 +1106,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac707cde-1cff-4429-8b80-78f006727047")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 105.41 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -993,7 +1166,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -1010,7 +1183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5db6ec7-d3c9-409f-843f-38cc90fc25ca")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 123.19 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -1070,7 +1243,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1078,7 +1251,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 105.41 63.5 0)
+		(at 114.3 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1087,8 +1260,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c344aac9-699b-4cd0-91d3-609f2c862055")
-		(property "Reference" "#PWR08"
-			(at 105.41 67.31 0)
+		(property "Reference" "#PWR03"
+			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1099,7 +1272,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 105.41 59.69 0)
+			(at 114.3 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1109,7 +1282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 63.5 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1120,7 +1293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 63.5 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1131,7 +1304,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 105.41 63.5 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1147,7 +1320,7 @@
 		(instances
 			(project "DCDC-Buck"
 				(path "/959e3d1c-01d0-4c7d-bf19-165b598aa596"
-					(reference "#PWR08")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1312,6 +1485,16 @@
 		(pin "Vpwm" input
 			(at 165.1 76.2 270)
 			(uuid "8ad1a6d7-08da-4ae0-94e0-99103f40c560")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+15V" passive
+			(at 127 63.5 180)
+			(uuid "a34b8c90-3a37-4783-8fee-04f62a1a8a2f")
 			(effects
 				(font
 					(size 1.27 1.27)
