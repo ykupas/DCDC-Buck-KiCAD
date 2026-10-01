@@ -4834,7 +4834,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 137.16 101.092 90)
 			(show_name no)
 			(do_not_autoplace no)

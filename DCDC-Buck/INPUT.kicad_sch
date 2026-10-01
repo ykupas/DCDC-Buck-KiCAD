@@ -2618,7 +2618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Rect_L10.0mm_W5.0mm_P5.00mm_P7.50mm"
 			(at 174.9552 102.87 0)
 			(hide yes)
 			(show_name no)

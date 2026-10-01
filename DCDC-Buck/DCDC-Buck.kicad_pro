@@ -555,7 +555,7 @@
       "method": 0,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -589,34 +589,34 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -628,13 +628,91 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Current",
+          "name": "Max Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Zener Voltage",
+          "name": "Zener Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Hold Current",
+          "name": "Hold Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Breakdown Voltage",
+          "name": "Breakdown Voltage",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -679,7 +757,7 @@
         "uuid": "959e3d1c-01d0-4c7d-bf19-165b598aa596"
       }
     ],
-    "used_designators": "C1-18,D1-5,L1,#PWR1-48,Q1,U1,R1-26,RV1,F1,J1,CN1-2,TVS1,EXT1-2,#SYM1,IC1-5,LED1,Z1-2",
+    "used_designators": "C1-18,#PWR1-48,L1,D1-5,Q1,U1,R1-26,F1,RV1,J1,CN1-2,EXT1-2,TVS1,#SYM1,IC1-5,LED1,Z1-2",
     "variants": []
   },
   "sheets": [
