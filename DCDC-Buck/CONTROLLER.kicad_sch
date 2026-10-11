@@ -1930,7 +1930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7kR"
+		(property "Value" "10kR"
 			(at 173.736 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4677,7 +4677,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2kR"
+		(property "Value" "10kR"
 			(at 158.242 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
