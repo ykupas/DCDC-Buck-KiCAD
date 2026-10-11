@@ -1930,7 +1930,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kR"
+		(property "Value" "4.7kR"
 			(at 173.736 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3749,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "390pF"
+		(property "Value" "1nF"
 			(at 125.222 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +3852,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kR"
+		(property "Value" "27kR"
 			(at 84.836 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
