@@ -3499,7 +3499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L16.0mm_W8.0mm_P7.62mm"
+		(property "Footprint" "Inductor_THT:L_Toroid_Vertical_L25.4mm_W14.7mm_P12.20mm_Vishay_TJ5"
 			(at 182.88 106.68 0)
 			(hide yes)
 			(show_name no)
